@@ -1,0 +1,24 @@
+.ul {
+  list-style: none;
+  padding: 10px;
+}
+
+.ul li {
+  font-size: 16px;
+  cursor: pointer;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 10px 10px 0px;
+  text-align: left;
+  transition: 0.2s;
+}
+.ul li a {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.2s;
+}
+.ul li:hover {
+  border-bottom: 1px solid #1f84e2;
+}
+.ul li:hover a {
+  color: #1f84e2;
+}
